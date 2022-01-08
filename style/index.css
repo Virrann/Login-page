@@ -1,0 +1,119 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+
+    background-color: #192f57;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    background-color: #d3e2ff;
+    height: 600px;
+    width: 70%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+section div{
+    width: 100%;
+}
+
+form{
+    width: 100%;
+    margin: 0 auto;
+}
+
+form h1{
+    color: #192f57;
+    text-align: center;
+}
+
+
+
+.login, input{
+    float: left;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+form input[type=email],
+form input[type=password]{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+    background-color: transparent;
+    padding-left: 30px;
+}
+
+form input[type=submit]{
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: #192f57;
+    color: #d3e2ff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+form input[type=submit]:hover{
+    background-color: #1d3d78;
+    transition: 1s;
+}
+
+section>div>a{
+    margin-left: 30px
+}
+
+.text{
+    color: #192f57;
+}
+
+#divisa{
+    display: flex;
+}
+
+.hr{
+    background: url(../img/hr.png) repeat-x center;
+    margin: 10px;
+}
+
+h2{
+     font-size: 18px;
+     margin-left: 30px;
+}
+
+.loginAlternativo{
+    display: flex;
+    justify-content: center;
+}
+
+.loginAlternativo a{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.loginAlternativo img{
+    margin: auto;
+}
